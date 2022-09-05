@@ -25,11 +25,17 @@ team_struct team =
       Your login ID if working as a one person team
       or, ID1+ID2 where ID1 is the login ID of the first team member
       and ID2 is the login ID of the second team member */
-    "CI0118",
+    "CI0118 C01736",
    /* Student name 1: Replace with the full name of first team member */
    "Archibald Emmanuel Carrion Claeys",
    /* Login ID 1: Replace with the login ID of first team member */
    "C01736",
+
+   /* The following should only be changed if there are two team members */
+   /* Student name 2: Full name of the second team member */
+   "",
+   /* Login ID 2: Login ID of the second team member */
+   ""
 };
 
 #if 0
@@ -134,7 +140,7 @@ NOTES:
  *   Rating: 1
  */
 int bitAnd(int x, int y) {
-  return ~(~5|~6);
+  return ~(~x|~y);
 }
 /*
  * bitXor - x^y using only ~ and &
