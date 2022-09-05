@@ -20,23 +20,22 @@
  * STEP 1: Fill in the following struct with your identifying info.
  */
 team_struct team =
-{
-   /* Team name: Replace with either:
-      Your login ID if working as a one person team
-      or, ID1+ID2 where ID1 is the login ID of the first team member
-      and ID2 is the login ID of the second team member */
-    "CI0118 C01736",
-   /* Student name 1: Replace with the full name of first team member */
-   "Archibald Emmanuel Carrion Claeys",
-   /* Login ID 1: Replace with the login ID of first team member */
-   "C01736",
+    {
+        /* Team name: Replace with either:
+           Your login ID if working as a one person team
+           or, ID1+ID2 where ID1 is the login ID of the first team member
+           and ID2 is the login ID of the second team member */
+        "CI0118 C01736",
+        /* Student name 1: Replace with the full name of first team member */
+        "Archibald Emmanuel Carrion Claeys",
+        /* Login ID 1: Replace with the login ID of first team member */
+        "C01736",
 
-   /* The following should only be changed if there are two team members */
-   /* Student name 2: Full name of the second team member */
-   "",
-   /* Login ID 2: Login ID of the second team member */
-   ""
-};
+        /* The following should only be changed if there are two team members */
+        /* Student name 2: Full name of the second team member */
+        "",
+        /* Login ID 2: Login ID of the second team member */
+        ""};
 
 #if 0
 /*
@@ -139,8 +138,9 @@ NOTES:
  *   Max ops: 8
  *   Rating: 1
  */
-int bitAnd(int x, int y) {
-  return ~(~x|~y);
+int bitAnd(int x, int y)
+{
+  return ~(~x | ~y);
 }
 /*
  * bitXor - x^y using only ~ and &
@@ -149,13 +149,10 @@ int bitAnd(int x, int y) {
  *   Max ops: 14
  *   Rating: 2
  */
-int bitXor(int x, int y) {
-
-
-
+int bitXor(int x, int y)
+{
 
   return 2;
-
 }
 /*
  * isEqual - return 1 if x == y, and 0 otherwise
@@ -164,7 +161,8 @@ int bitXor(int x, int y) {
  *   Max ops: 5
  *   Rating: 2
  */
-int isEqual(int x, int y) {
+int isEqual(int x, int y)
+{
   return 2;
 }
 /*
@@ -173,7 +171,8 @@ int isEqual(int x, int y) {
  *   Max ops: 8
  *   Rating: 2
  */
-int evenBits(void) {
+int evenBits(void)
+{
   return 2;
 }
 /*
@@ -185,7 +184,8 @@ int evenBits(void) {
  *   Max ops: 15
  *   Rating: 2
  */
-int fitsBits(int x, int n) {
+int fitsBits(int x, int n)
+{
   return 2;
 }
 /*
@@ -198,7 +198,8 @@ int fitsBits(int x, int n) {
  *   Max ops: 16
  *   Rating: 3
  */
-int bitMask(int highbit, int lowbit) {
+int bitMask(int highbit, int lowbit)
+{
   return 2;
 }
 /*
@@ -208,7 +209,8 @@ int bitMask(int highbit, int lowbit) {
  *   Max ops: 16
  *   Rating: 3
  */
-int conditional(int x, int y, int z) {
+int conditional(int x, int y, int z)
+{
   return 2;
 }
 /*
@@ -218,7 +220,8 @@ int conditional(int x, int y, int z) {
  *   Max ops: 25
  *   Rating: 3
  */
-int reverseBytes(int x) {
+int reverseBytes(int x)
+{
   return 2;
 }
 /*
@@ -228,7 +231,8 @@ int reverseBytes(int x) {
  *   Max ops: 12
  *   Rating: 4
  */
-int bang(int x) {
+int bang(int x)
+{
   return 2;
 }
 /*
@@ -238,7 +242,8 @@ int bang(int x) {
  *   Max ops: 40
  *   Rating: 4
  */
-int bitCount(int x) {
+int bitCount(int x)
+{
   return 2;
 }
 /*
@@ -248,7 +253,8 @@ int bitCount(int x) {
  *   Max ops: 2
  *   Rating: 1
  */
-int isZero(int x) {
+int isZero(int x)
+{
   return 2;
 }
 /*
@@ -258,7 +264,8 @@ int isZero(int x) {
  *   Max ops: 6
  *   Rating: 3
  */
-int isNegative(int x) {
+int isNegative(int x)
+{
   return 2;
 }
 /*
@@ -270,7 +277,8 @@ int isNegative(int x) {
  *   Max ops: 12
  *   Rating: 3
  */
-int multFiveEights(int x) {
+int multFiveEights(int x)
+{
   return 2;
 }
 /*
@@ -281,10 +289,12 @@ int multFiveEights(int x) {
  *   Rating: 3
  */
 /* A helper routine to perform the addition.  Don't change this code */
-static int sum(int x, int y) {
-  return x+y;
+static int sum(int x, int y)
+{
+  return x + y;
 }
-int sum3(int x, int y, int z) {
+int sum3(int x, int y, int z)
+{
   int word1 = 0;
   int word2 = 0;
   /**************************************************************
@@ -294,7 +304,7 @@ int sum3(int x, int y, int z) {
   /**************************************************************
      Don't change anything below here
   ***************************************************************/
-  return sum(word1,word2);
+  return sum(word1, word2);
 }
 /*
  * addOK - Determine if can compute x+y without overflow
@@ -304,7 +314,8 @@ int sum3(int x, int y, int z) {
  *   Max ops: 20
  *   Rating: 3
  */
-int addOK(int x, int y) {
+int addOK(int x, int y)
+{
   return 2;
 }
 /*
@@ -314,7 +325,8 @@ int addOK(int x, int y) {
  *   Max ops: 24
  *   Rating: 3
  */
-int isLess(int x, int y) {
+int isLess(int x, int y)
+{
   return 2;
 }
 /*
@@ -324,7 +336,8 @@ int isLess(int x, int y) {
  *   Max ops: 10
  *   Rating: 4
  */
-int abs(int x) {
+int abs(int x)
+{
   return 2;
 }
 /*
@@ -335,7 +348,8 @@ int abs(int x) {
  *   Max ops: 10
  *   Rating: 4
  */
-int isNonZero(int x) {
+int isNonZero(int x)
+{
   return 2;
 }
 /*
@@ -347,6 +361,7 @@ int isNonZero(int x) {
  *   Max ops: 15
  *   Rating: 4
  */
-int tc2sm(int x) {
+int tc2sm(int x)
+{
   return 2;
 }
