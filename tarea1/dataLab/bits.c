@@ -151,8 +151,7 @@ int bitAnd(int x, int y)
  */
 int bitXor(int x, int y)
 {
-
-  return 2;
+  return ~(~(~(x&y)&x)&~(~(x&y)&y));
 }
 /*
  * isEqual - return 1 if x == y, and 0 otherwise
