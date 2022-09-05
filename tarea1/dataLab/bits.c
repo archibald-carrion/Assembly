@@ -162,7 +162,7 @@ int bitXor(int x, int y)
  */
 int isEqual(int x, int y)
 {
-  return 2;
+  return !((x&y)^(x|y));
 }
 /*
  * evenBits - return word with all even-numbered bits set to 1
