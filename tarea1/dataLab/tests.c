@@ -22,9 +22,9 @@ int test_evenBits(void) {
 }
 int test_fitsBits(int x, int n)
 {
-  int TMin_n = -(1 << (n-1));
-  int TMax_n = (1 << (n-1)) - 1;
-  return x >= TMin_n && x <= TMax_n;
+  long TMin_n = -((long)1 << (n-1));
+  long TMax_n = ((long)1 << (n-1)) - 1;
+  return (x >= TMin_n) && (x <= TMax_n);
 }
 
 
