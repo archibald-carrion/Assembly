@@ -4,393 +4,391 @@ Member 1:	Archibald Emmanuel Carrion Claeys	C01736
 Test bitAnd score: 1.00/1.00
 Test bitXor score: 2.00/2.00
 Test isEqual score: 2.00/2.00
-Test evenBits() failed.
-  Gives 2[0x2].  Should be 1431655765[0x55555555]
-Test evenBits score: 0.00/2.00
+Test evenBits score: 2.00/2.00
 Test fitsBits(-2147483648[0x80000000],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test fitsBits(-2147483648[0x80000000],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test fitsBits(2147483647[0x7fffffff],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 0[0x0]
 Test fitsBits(2147483647[0x7fffffff],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483647[0x80000001].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 3[0x3].  Should be 0[0x0]
 Test fitsBits(-3[0xfffffffd],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 3[0x3].  Should be 0[0x0]
 Test fitsBits(-3[0xfffffffd],3[0x3]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],4[0x4]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],5[0x5]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],6[0x6]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],7[0x7]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],8[0x8]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],9[0x9]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],10[0xa]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],11[0xb]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],12[0xc]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],13[0xd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],14[0xe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],15[0xf]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],16[0x10]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],17[0x11]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],18[0x12]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],19[0x13]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],20[0x14]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],21[0x15]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],22[0x16]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],23[0x17]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],24[0x18]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],25[0x19]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-3[0xfffffffd],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 3[0x3].  Should be 1[0x1]
 Test fitsBits(-1124079037[0xbcffea43],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 0[0x0]
 Test fitsBits(-1124079037[0xbcffea43],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1124079037[0x430015bd].  Should be 1[0x1]
 Test fitsBits(-2147483647[0x80000001],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test fitsBits(-2147483647[0x80000001],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 1[0x1]
 Test fitsBits(2147483646[0x7ffffffe],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 0[0x0]
 Test fitsBits(2147483646[0x7ffffffe],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483646[0x80000002].  Should be 1[0x1]
 Test fitsBits(-2[0xfffffffe],1[0x1]) failed.
   Gives 2[0x2].  Should be 0[0x0]
 Test fitsBits(-2[0xfffffffe],2[0x2]) failed.
@@ -454,839 +452,775 @@ Test fitsBits(-2[0xfffffffe],30[0x1e]) failed.
 Test fitsBits(-2[0xfffffffe],31[0x1f]) failed.
   Gives 2[0x2].  Should be 1[0x1]
 Test fitsBits(-2[0xfffffffe],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2[0x2].  Should be 1[0x1]
 Test fitsBits(2021358202[0x787b7a7a],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 0[0x0]
 Test fitsBits(2021358202[0x787b7a7a],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2021358202[0x87848586].  Should be 1[0x1]
 Test fitsBits(-2147483646[0x80000002],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test fitsBits(-2147483646[0x80000002],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 1[0x1]
 Test fitsBits(2147483645[0x7ffffffd],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 0[0x0]
 Test fitsBits(2147483645[0x7ffffffd],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test fitsBits(-1[0xffffffff],1[0x1]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],2[0x2]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],3[0x3]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],4[0x4]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],5[0x5]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],6[0x6]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],7[0x7]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],8[0x8]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],9[0x9]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],10[0xa]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],11[0xb]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],12[0xc]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],13[0xd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],14[0xe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],15[0xf]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],16[0x10]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],17[0x11]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],18[0x12]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],19[0x13]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],20[0x14]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],21[0x15]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],22[0x16]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],23[0x17]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],24[0x18]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],25[0x19]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test fitsBits(-1[0xffffffff],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483645[0x80000003].  Should be 1[0x1]
 Test fitsBits(1727470520[0x66f71bb8],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 0[0x0]
 Test fitsBits(1727470520[0x66f71bb8],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1727470520[0x9908e448].  Should be 1[0x1]
 Test fitsBits(-2147483645[0x80000003],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test fitsBits(-2147483645[0x80000003],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 1[0x1]
 Test fitsBits(2147483644[0x7ffffffc],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 0[0x0]
 Test fitsBits(2147483644[0x7ffffffc],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483644[0x80000004].  Should be 1[0x1]
 Test fitsBits(0[0x0],1[0x1]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],2[0x2]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],3[0x3]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],4[0x4]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],5[0x5]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],6[0x6]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],7[0x7]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],8[0x8]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],9[0x9]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],10[0xa]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],11[0xb]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],12[0xc]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],13[0xd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],14[0xe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],15[0xf]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],16[0x10]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],17[0x11]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],18[0x12]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],19[0x13]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],20[0x14]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],21[0x15]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],22[0x16]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],23[0x17]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],24[0x18]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],25[0x19]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(0[0x0],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 0[0x0].  Should be 1[0x1]
 Test fitsBits(1507189006[0x59d5e10e],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 0[0x0]
 Test fitsBits(1507189006[0x59d5e10e],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1507189006[0xa62a1ef2].  Should be 1[0x1]
 Test fitsBits(-2147483644[0x80000004],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test fitsBits(-2147483644[0x80000004],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 1[0x1]
 Test fitsBits(2147483643[0x7ffffffb],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 0[0x0]
 Test fitsBits(2147483643[0x7ffffffb],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483643[0x80000005].  Should be 1[0x1]
 Test fitsBits(1[0x1],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1[0xffffffff].  Should be 0[0x0]
 Test fitsBits(1[0x1],2[0x2]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],3[0x3]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],4[0x4]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],5[0x5]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],6[0x6]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],7[0x7]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],8[0x8]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],9[0x9]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],10[0xa]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],11[0xb]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],12[0xc]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],13[0xd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],14[0xe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],15[0xf]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],16[0x10]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],17[0x11]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],18[0x12]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],19[0x13]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],20[0x14]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],21[0x15]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],22[0x16]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],23[0x17]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],24[0x18]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],25[0x19]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(1[0x1],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -1[0xffffffff].  Should be 1[0x1]
 Test fitsBits(-1002162975[0xc44434e1],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],2[0x2]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],3[0x3]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],4[0x4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],5[0x5]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],6[0x6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],7[0x7]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],8[0x8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],9[0x9]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],10[0xa]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],11[0xb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],12[0xc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],13[0xd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],14[0xe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],15[0xf]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],16[0x10]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],17[0x11]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],18[0x12]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],19[0x13]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],20[0x14]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],21[0x15]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],22[0x16]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],23[0x17]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],24[0x18]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],25[0x19]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],26[0x1a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],27[0x1b]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],28[0x1c]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],29[0x1d]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],30[0x1e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 0[0x0]
 Test fitsBits(-1002162975[0xc44434e1],31[0x1f]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 1002162975[0x3bbbcb1f].  Should be 1[0x1]
 Test fitsBits(-1002162975[0xc44434e1],32[0x20]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1002162975[0x3bbbcb1f].  Should be 1[0x1]
 Test fitsBits score: 0.00/2.00
 Test bitMask(0[0x0],0[0x0]) failed.
   Gives 2[0x2].  Should be 1[0x1]
@@ -9257,5 +9191,5 @@ Test tc2sm(1[0x1]) failed.
 Test tc2sm(-1278986395[0xb3c43765]) failed.
   Gives 2[0x2].  Should be -868497253[0xcc3bc89b]
 Test tc2sm score: 0.00/4.00
-Overall correctness score: 5.00/54.00
-18510 errors encountered.
+Overall correctness score: 7.00/54.00
+18477 errors encountered.

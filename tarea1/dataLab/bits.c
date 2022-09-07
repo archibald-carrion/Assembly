@@ -162,7 +162,8 @@ int bitXor(int x, int y)
  */
 int isEqual(int x, int y)
 {
-  return !((x&y)^(x|y));
+  //return !((x&y)^(x|y));
+  return !(x^y);
 }
 /*
  * evenBits - return word with all even-numbered bits set to 1
@@ -172,20 +173,20 @@ int isEqual(int x, int y)
  */
 int evenBits(void)
 {
-  return 2;
+  return (85<<8) + (85<<16) + (85<<24) + (85);
 }
 /*
  * fitsBits - return 1 if x can be represented as an
  *  n-bit, two's complement integer.
  *   1 <= n <= 32
  *   Examples: fitsBits(5,3) = 0, fitsBits(-4,3) = 1
- *   Legal ops: ! ~ & ^ | + << >>
+ *   Legal ops: ! ~ & ^ | + << >image.png>
  *   Max ops: 15
  *   Rating: 2
  */
 int fitsBits(int x, int n)
 {
-  return 2;
+  return (~(x)+1);
 }
 /*
  * bitMask - Generate a mask consisting of all 1's
