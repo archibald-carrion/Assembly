@@ -151,7 +151,7 @@ int bitAnd(int x, int y)
  */
 int bitXor(int x, int y)
 {
-  return ~(~(~(x&y)&x)&~(~(x&y)&y));
+  return ~(~(~(x & y) & x) & ~(~(x & y) & y));
 }
 /*
  * isEqual - return 1 if x == y, and 0 otherwise
@@ -162,8 +162,8 @@ int bitXor(int x, int y)
  */
 int isEqual(int x, int y)
 {
-  //return !((x&y)^(x|y));
-  return !(x^y);
+  // return !((x&y)^(x|y));
+  return !(x ^ y);
 }
 /*
  * evenBits - return word with all even-numbered bits set to 1
@@ -173,7 +173,7 @@ int isEqual(int x, int y)
  */
 int evenBits(void)
 {
-  return (85<<8) + (85<<16) + (85<<24) + (85);
+  return (85 << 8) + (85 << 16) + (85 << 24) + (85);
 }
 /*
  * fitsBits - return 1 if x can be represented as an
@@ -186,7 +186,7 @@ int evenBits(void)
  */
 int fitsBits(int x, int n)
 {
-  return (~(x)+1);
+  return (~(x) + 1);
 }
 /*
  * bitMask - Generate a mask consisting of all 1's
@@ -266,7 +266,7 @@ int isZero(int x)
  */
 int isNegative(int x)
 {
-  return !!(x&(1<<31));
+  return !!(x & (1 << 31));
 }
 /*
  * multFiveEights - multiplies by 5/8 rounding toward 0.
@@ -316,9 +316,11 @@ int sum3(int x, int y, int z)
  */
 int addOK(int x, int y)
 {
-  return !!((((x+y)>>31) & x>>31) | (((x+y)>>31) & y>>31) | (!((x+y)>>31) & !(x>>31)) | (!((x+y)>>31) & !(y>>31)));
-  //return (((x<<1)>>30) & ((y<<1)>>30)) ;
-  //return (((x>>31 & y>>31) & (((x<<1)>>30) & ((y<<1)>>30))) | ((((x<<1)>>30) & ((y<<1)>>30)))  | ());
+  int signResult = (x + y) >> 31;
+  return !!((signResult & x >> 31) | (signResult & y >> 31) | (!signResult & !(x >> 31)) | (!signResult & !(y >> 31)));
+  // return !!((((x+y)>>31) & x>>31) | (((x+y)>>31) & y>>31) | (!((x+y)>>31) & !(x>>31)) | (!((x+y)>>31) & !(y>>31)));
+  // return (((x<<1)>>30) & ((y<<1)>>30)) ;
+  // return (((x>>31 & y>>31) & (((x<<1)>>30) & ((y<<1)>>30))) | ((((x<<1)>>30) & ((y<<1)>>30)))  | ());
 }
 /*
  * isLess - if x < y  then return 1, else return 0
