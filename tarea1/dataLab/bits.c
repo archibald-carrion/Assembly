@@ -318,9 +318,6 @@ int addOK(int x, int y)
 {
   int signResult = (x + y) >> 31;
   return !!((signResult & x >> 31) | (signResult & y >> 31) | (!signResult & !(x >> 31)) | (!signResult & !(y >> 31)));
-  // return !!((((x+y)>>31) & x>>31) | (((x+y)>>31) & y>>31) | (!((x+y)>>31) & !(x>>31)) | (!((x+y)>>31) & !(y>>31)));
-  // return (((x<<1)>>30) & ((y<<1)>>30)) ;
-  // return (((x>>31 & y>>31) & (((x<<1)>>30) & ((y<<1)>>30))) | ((((x<<1)>>30) & ((y<<1)>>30)))  | ());
 }
 /*
  * isLess - if x < y  then return 1, else return 0
@@ -342,7 +339,7 @@ int isLess(int x, int y)
  */
 int abs(int x)
 {
-  return 2;
+  return (x+(x>>31))^(x>>31);
 }
 /*
  * isNonZero - Check whether x is nonzero using
