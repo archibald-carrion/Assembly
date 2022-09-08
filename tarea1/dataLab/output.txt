@@ -5343,88 +5343,8 @@ Test bitCount(1[0x1]) failed.
 Test bitCount(2081992546[0x7c18af62]) failed.
   Gives 2[0x2].  Should be 16[0x10]
 Test bitCount score: 0.00/4.00
-Test isZero(-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(997070282[0x3b6e15ca]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(-1608573035[0xa01f1f95]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(1260445718[0x4b20e016]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(0[0x0]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isZero(-1442671209[0xaa029597]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero(1052573600[0x3ebcffa0]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isZero score: 0.00/1.00
-Test isNegative(-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(598969032[0x23b38ac8]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(1115552650[0x427dfb8a]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(-1745988055[0x97ee5629]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(0[0x0]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(-1568082201[0xa288f6e7]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test isNegative(2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative(86801588[0x52c7cb4]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test isNegative score: 0.00/3.00
+Test isZero score: 1.00/1.00
+Test isNegative score: 3.00/3.00
 Test multFiveEights(-536870911[0xe0000001]) failed.
   Gives 2[0x2].  Should be -335544319[0xec000001]
 Test multFiveEights(536870911[0x1fffffff]) failed.
@@ -9191,5 +9111,5 @@ Test tc2sm(1[0x1]) failed.
 Test tc2sm(-1278986395[0xb3c43765]) failed.
   Gives 2[0x2].  Should be -868497253[0xcc3bc89b]
 Test tc2sm score: 0.00/4.00
-Overall correctness score: 7.00/54.00
-18477 errors encountered.
+Overall correctness score: 11.00/54.00
+18437 errors encountered.

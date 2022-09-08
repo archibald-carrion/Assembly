@@ -255,7 +255,7 @@ int bitCount(int x)
  */
 int isZero(int x)
 {
-  return 2;
+  return !(x);
 }
 /*
  * isNegative - return 1 if x < 0, return 0 otherwise
@@ -266,7 +266,7 @@ int isZero(int x)
  */
 int isNegative(int x)
 {
-  return 2;
+  return !!(x&(1<<31));
 }
 /*
  * multFiveEights - multiplies by 5/8 rounding toward 0.
