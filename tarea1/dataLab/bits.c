@@ -316,7 +316,9 @@ int sum3(int x, int y, int z)
  */
 int addOK(int x, int y)
 {
-  return 2;
+  return !!((((x+y)>>31) & x>>31) | (((x+y)>>31) & y>>31) | (!((x+y)>>31) & !(x>>31)) | (!((x+y)>>31) & !(y>>31)));
+  //return (((x<<1)>>30) & ((y<<1)>>30)) ;
+  //return (((x>>31 & y>>31) & (((x<<1)>>30) & ((y<<1)>>30))) | ((((x<<1)>>30) & ((y<<1)>>30)))  | ());
 }
 /*
  * isLess - if x < y  then return 1, else return 0
