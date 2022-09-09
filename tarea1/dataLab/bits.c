@@ -211,6 +211,8 @@ int bitMask(int highbit, int lowbit)
  */
 int conditional(int x, int y, int z)
 {
+  //si x es 1 -> return y
+  //sino returno z
   return 2;
 }
 /*
