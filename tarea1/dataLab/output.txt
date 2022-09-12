@@ -3225,1615 +3225,1551 @@ Test bitMask(31[0x1f],8[0x8]) failed.
 ... 1023 total errors for function bitMask
 Test bitMask score: 0.00/3.00
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 2147483647[0x7fffffff].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 1418787169[0x5490f961].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 1[0x1].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 983410807[0x3a9da877].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 2147483647[0x7fffffff].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 1689521654[0x64b40df6].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 3[0x3].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 2147483644[0x7ffffffc].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 1504785509[0x59b13465].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 4[0x4].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 2147483643[0x7ffffffb].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 1[0x1].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],-2147483648[0x80000000],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 801741150[0x2fc9995e].  Should be -2147483648[0x80000000]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
-Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 2147483645[0x7ffffffd].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 1418787169[0x5490f961].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 1[0x1].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 2147483646[0x7ffffffe].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 2147483646[0x7ffffffe].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 983410807[0x3a9da877].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
-Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 2147483645[0x7ffffffd].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 1689521654[0x64b40df6].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 3[0x3].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 2147483644[0x7ffffffc].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 1504785509[0x59b13465].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 4[0x4].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 2147483643[0x7ffffffb].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 1[0x1].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],2147483647[0x7fffffff],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 801741150[0x2fc9995e].  Should be 2147483647[0x7fffffff]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 2147483647[0x7fffffff].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 2147483645[0x7ffffffd].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 1418787169[0x5490f961].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 1[0x1].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 2147483646[0x7ffffffe].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 2147483646[0x7ffffffe].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 983410807[0x3a9da877].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 2147483645[0x7ffffffd].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 2147483647[0x7fffffff].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 1689521654[0x64b40df6].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 3[0x3].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 2147483644[0x7ffffffc].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],0[0x0]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 1504785509[0x59b13465].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 4[0x4].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 2147483643[0x7ffffffb].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],1[0x1]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 1[0x1].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],-3[0xfffffffd],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 801741150[0x2fc9995e].  Should be -3[0xfffffffd]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 2147483647[0x7fffffff].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 2147483645[0x7ffffffd].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 1418787169[0x5490f961].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 1[0x1].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 2147483646[0x7ffffffe].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 2147483646[0x7ffffffe].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 983410807[0x3a9da877].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 2147483645[0x7ffffffd].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 2147483647[0x7fffffff].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 1689521654[0x64b40df6].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 3[0x3].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 2147483644[0x7ffffffc].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],0[0x0]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 1504785509[0x59b13465].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 4[0x4].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 2147483643[0x7ffffffb].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],1[0x1]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 1[0x1].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],806858526[0x3017af1e],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 801741150[0x2fc9995e].  Should be 806858526[0x3017af1e]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 2147483647[0x7fffffff].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 1418787169[0x5490f961].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 1[0x1].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 983410807[0x3a9da877].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 2147483647[0x7fffffff].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 1689521654[0x64b40df6].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 3[0x3].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 2147483644[0x7ffffffc].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 1504785509[0x59b13465].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 4[0x4].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 2147483643[0x7ffffffb].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 1[0x1].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],-2147483647[0x80000001],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 801741150[0x2fc9995e].  Should be -2147483647[0x80000001]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 2147483647[0x7fffffff].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 2147483645[0x7ffffffd].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 1418787169[0x5490f961].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
-Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
-Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 1[0x1].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 983410807[0x3a9da877].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 2147483645[0x7ffffffd].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 2147483647[0x7fffffff].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 1689521654[0x64b40df6].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 3[0x3].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 2147483644[0x7ffffffc].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 1504785509[0x59b13465].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 4[0x4].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 2147483643[0x7ffffffb].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 1[0x1].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],2147483646[0x7ffffffe],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 801741150[0x2fc9995e].  Should be 2147483646[0x7ffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 2147483647[0x7fffffff].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 2147483645[0x7ffffffd].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 1418787169[0x5490f961].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 1[0x1].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 2147483646[0x7ffffffe].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 2147483646[0x7ffffffe].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 983410807[0x3a9da877].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 2147483645[0x7ffffffd].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 2147483647[0x7fffffff].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 1689521654[0x64b40df6].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 3[0x3].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 2147483644[0x7ffffffc].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 1504785509[0x59b13465].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 4[0x4].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 2147483643[0x7ffffffb].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 1[0x1].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-2[0xfffffffe],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 801741150[0x2fc9995e].  Should be -2[0xfffffffe]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 2147483647[0x7fffffff].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 2147483645[0x7ffffffd].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 1418787169[0x5490f961].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 1[0x1].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 2147483646[0x7ffffffe].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 2147483646[0x7ffffffe].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 983410807[0x3a9da877].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 2147483645[0x7ffffffd].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 2147483647[0x7fffffff].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 1689521654[0x64b40df6].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 3[0x3].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 2147483644[0x7ffffffc].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],0[0x0]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 1504785509[0x59b13465].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 4[0x4].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 2147483643[0x7ffffffb].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],1[0x1]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 1[0x1].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-1434630031[0xaa7d4871],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 801741150[0x2fc9995e].  Should be -1434630031[0xaa7d4871]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 2147483647[0x7fffffff].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 1418787169[0x5490f961].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 1[0x1].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 983410807[0x3a9da877].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 2147483647[0x7fffffff].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 1689521654[0x64b40df6].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 3[0x3].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 2147483644[0x7ffffffc].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 1504785509[0x59b13465].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 4[0x4].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 2147483643[0x7ffffffb].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 1[0x1].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],-2147483646[0x80000002],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 801741150[0x2fc9995e].  Should be -2147483646[0x80000002]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
-Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 2147483647[0x7fffffff].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 1418787169[0x5490f961].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 1[0x1].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 2147483646[0x7ffffffe].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 2147483646[0x7ffffffe].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 983410807[0x3a9da877].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
-Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 2147483647[0x7fffffff].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 1689521654[0x64b40df6].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 3[0x3].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 2147483644[0x7ffffffc].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 1504785509[0x59b13465].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 4[0x4].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 2147483643[0x7ffffffb].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 1[0x1].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],2147483645[0x7ffffffd],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 801741150[0x2fc9995e].  Should be 2147483645[0x7ffffffd]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 2147483647[0x7fffffff].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 2147483645[0x7ffffffd].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 1418787169[0x5490f961].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 1[0x1].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 2147483646[0x7ffffffe].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 2147483646[0x7ffffffe].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 983410807[0x3a9da877].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 2147483645[0x7ffffffd].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 2147483647[0x7fffffff].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 1689521654[0x64b40df6].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 3[0x3].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 2147483644[0x7ffffffc].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],0[0x0]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 1504785509[0x59b13465].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 4[0x4].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 2147483643[0x7ffffffb].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],1[0x1]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 1[0x1].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-1[0xffffffff],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 801741150[0x2fc9995e].  Should be -1[0xffffffff]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 2147483647[0x7fffffff].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 2147483645[0x7ffffffd].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 1418787169[0x5490f961].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 1[0x1].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 2147483646[0x7ffffffe].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 2147483646[0x7ffffffe].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 983410807[0x3a9da877].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 2147483645[0x7ffffffd].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 2147483647[0x7fffffff].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 1689521654[0x64b40df6].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 3[0x3].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 2147483644[0x7ffffffc].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],0[0x0]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 1504785509[0x59b13465].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 4[0x4].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 2147483643[0x7ffffffb].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],1[0x1]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 1[0x1].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-257249095[0xf0aab0b9],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 801741150[0x2fc9995e].  Should be -257249095[0xf0aab0b9]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 2147483647[0x7fffffff].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 1418787169[0x5490f961].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 1[0x1].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 983410807[0x3a9da877].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 2147483647[0x7fffffff].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 1689521654[0x64b40df6].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 3[0x3].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 2147483644[0x7ffffffc].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 1504785509[0x59b13465].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 4[0x4].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 2147483643[0x7ffffffb].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 1[0x1].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],-2147483645[0x80000003],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 801741150[0x2fc9995e].  Should be -2147483645[0x80000003]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 2147483647[0x7fffffff].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 2147483645[0x7ffffffd].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 1418787169[0x5490f961].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 1[0x1].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 2147483646[0x7ffffffe].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 2147483646[0x7ffffffe].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 983410807[0x3a9da877].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 2147483645[0x7ffffffd].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 2147483647[0x7fffffff].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 1689521654[0x64b40df6].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
-Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 3[0x3].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 1504785509[0x59b13465].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 4[0x4].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 2147483643[0x7ffffffb].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 1[0x1].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],2147483644[0x7ffffffc],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
-Test conditional(-2147483648[0x80000000],0[0x0],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 801741150[0x2fc9995e].  Should be 2147483644[0x7ffffffc]
 Test conditional(-2147483648[0x80000000],0[0x0],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1418787169[0x5490f961].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1[0x1].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483646[0x7ffffffe].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 983410807[0x3a9da877].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483645[0x7ffffffd].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483647[0x7fffffff].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1689521654[0x64b40df6].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 3[0x3].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(-2147483648[0x80000000],0[0x0],0[0x0]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483644[0x7ffffffc].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1504785509[0x59b13465].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 4[0x4].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 2147483643[0x7ffffffb].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 1[0x1].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],0[0x0],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives 801741150[0x2fc9995e].  Should be 0[0x0]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 2147483647[0x7fffffff].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 2147483645[0x7ffffffd].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 1418787169[0x5490f961].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 1[0x1].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 2147483646[0x7ffffffe].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 2147483646[0x7ffffffe].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 983410807[0x3a9da877].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 2147483645[0x7ffffffd].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 2147483647[0x7fffffff].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 1689521654[0x64b40df6].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 3[0x3].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 2147483644[0x7ffffffc].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],0[0x0]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 1504785509[0x59b13465].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 4[0x4].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 2147483643[0x7ffffffb].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],1[0x1]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 1[0x1].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],1632410708[0x614c9c54],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 801741150[0x2fc9995e].  Should be 1632410708[0x614c9c54]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 2147483647[0x7fffffff].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 1418787169[0x5490f961].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 1[0x1].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 2147483646[0x7ffffffe].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 983410807[0x3a9da877].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 2147483645[0x7ffffffd].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 2147483647[0x7fffffff].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 1689521654[0x64b40df6].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 3[0x3].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 2147483644[0x7ffffffc].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 1504785509[0x59b13465].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 4[0x4].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 2147483643[0x7ffffffb].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 1[0x1].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],-2147483644[0x80000004],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 801741150[0x2fc9995e].  Should be -2147483644[0x80000004]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 2147483647[0x7fffffff].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 2147483645[0x7ffffffd].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 1418787169[0x5490f961].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 1[0x1].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 2147483646[0x7ffffffe].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 2147483646[0x7ffffffe].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 983410807[0x3a9da877].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 2147483645[0x7ffffffd].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 2147483647[0x7fffffff].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 1689521654[0x64b40df6].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 3[0x3].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 2147483644[0x7ffffffc].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 1504785509[0x59b13465].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
-Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 4[0x4].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 1[0x1].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],2147483643[0x7ffffffb],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 801741150[0x2fc9995e].  Should be 2147483643[0x7ffffffb]
 Test conditional(-2147483648[0x80000000],1[0x1],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 2147483647[0x7fffffff].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 2147483645[0x7ffffffd].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test conditional(-2147483648[0x80000000],1[0x1],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 1418787169[0x5490f961].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 2147483646[0x7ffffffe].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 2147483646[0x7ffffffe].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 983410807[0x3a9da877].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 2147483645[0x7ffffffd].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 2147483647[0x7fffffff].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 1689521654[0x64b40df6].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 3[0x3].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 2147483644[0x7ffffffc].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],0[0x0]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 1504785509[0x59b13465].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 4[0x4].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test conditional(-2147483648[0x80000000],1[0x1],1[0x1]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 2147483643[0x7ffffffb].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1[0x1],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 801741150[0x2fc9995e].  Should be 1[0x1]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 2147483647[0x7fffffff].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 2147483645[0x7ffffffd].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 1418787169[0x5490f961].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 1[0x1].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 2147483646[0x7ffffffe].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 2147483646[0x7ffffffe].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 983410807[0x3a9da877].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 2147483645[0x7ffffffd].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 2147483647[0x7fffffff].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 1689521654[0x64b40df6].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 3[0x3].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 2147483644[0x7ffffffc].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],0[0x0]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 1504785509[0x59b13465].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 4[0x4].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 2147483643[0x7ffffffb].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],1[0x1]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 1[0x1].  Should be 1413907928[0x544685d8]
 Test conditional(-2147483648[0x80000000],1413907928[0x544685d8],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 801741150[0x2fc9995e].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
-Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],-2147483648[0x80000000],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives -2147483648[0x80000000].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],2147483647[0x7fffffff],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],0[0x0]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives -2147483648[0x80000000].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],1[0x1]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],-3[0xfffffffd],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],0[0x0]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives -2147483648[0x80000000].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],1[0x1]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],806858526[0x3017af1e],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives -2147483648[0x80000000].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],-2147483647[0x80000001],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives -2147483648[0x80000000].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],2147483646[0x7ffffffe],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives -2147483648[0x80000000].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-2[0xfffffffe],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],0[0x0]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives -2147483648[0x80000000].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],1[0x1]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-1434630031[0xaa7d4871],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives -2147483648[0x80000000].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],-2147483646[0x80000002],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives -2147483648[0x80000000].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],2147483645[0x7ffffffd],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],0[0x0]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives -2147483648[0x80000000].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],1[0x1]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-1[0xffffffff],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -1[0xffffffff]
+  Gives 0[0x0].  Should be -1[0xffffffff]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],0[0x0]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives -2147483648[0x80000000].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],1[0x1]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-257249095[0xf0aab0b9],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives -2147483648[0x80000000].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],-2147483645[0x80000003],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483645[0x80000003]
+  Gives 0[0x0].  Should be -2147483645[0x80000003]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives -2147483648[0x80000000].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],2147483644[0x7ffffffc],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483644[0x7ffffffc]
+  Gives 0[0x0].  Should be 2147483644[0x7ffffffc]
 Test conditional(2147483647[0x7fffffff],0[0x0],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],0[0x0]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],0[0x0],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],1[0x1]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test conditional(2147483647[0x7fffffff],0[0x0],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
+  Gives -2147483648[0x80000000].  Should be 0[0x0]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],0[0x0]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives -2147483648[0x80000000].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],1[0x1]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],1632410708[0x614c9c54],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 1632410708[0x614c9c54]
+  Gives 0[0x0].  Should be 1632410708[0x614c9c54]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives -2147483648[0x80000000].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],-2147483644[0x80000004],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be -2147483644[0x80000004]
+  Gives 0[0x0].  Should be -2147483644[0x80000004]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives -2147483648[0x80000000].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],2147483643[0x7ffffffb],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 2147483643[0x7ffffffb]
+  Gives 0[0x0].  Should be 2147483643[0x7ffffffb]
 Test conditional(2147483647[0x7fffffff],1[0x1],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],0[0x0]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives -2147483648[0x80000000].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],1[0x1]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1[0x1],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
+  Gives 0[0x0].  Should be 1[0x1]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-1164072841[0xba9da877]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-2147483646[0x80000002]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],1689521654[0x64b40df6]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],0[0x0]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives -2147483648[0x80000000].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],1[0x1]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(2147483647[0x7fffffff],1413907928[0x544685d8],801741150[0x2fc9995e]) failed.
-  Gives 2[0x2].  Should be 1413907928[0x544685d8]
+  Gives 0[0x0].  Should be 1413907928[0x544685d8]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-2[0xfffffffe]) failed.
@@ -4843,7 +4779,7 @@ Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-1164072841[0xba9da877])
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],1689521654[0x64b40df6]) failed.
@@ -4851,29 +4787,29 @@ Test conditional(-3[0xfffffffd],-2147483648[0x80000000],1689521654[0x64b40df6]) 
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483648[0x80000000]
+  Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],-2147483648[0x80000000],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be -2147483648[0x80000000]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-2[0xfffffffe]) failed.
@@ -4883,7 +4819,7 @@ Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-1164072841[0xba9da877]) 
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],1689521654[0x64b40df6]) failed.
@@ -4891,29 +4827,29 @@ Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],1689521654[0x64b40df6]) f
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483647[0x7fffffff]
+  Gives 0[0x0].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],2147483647[0x7fffffff],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be 2147483647[0x7fffffff]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-2[0xfffffffe]) failed.
@@ -4923,7 +4859,7 @@ Test conditional(-3[0xfffffffd],-3[0xfffffffd],-1164072841[0xba9da877]) failed.
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],1689521654[0x64b40df6]) failed.
@@ -4931,29 +4867,29 @@ Test conditional(-3[0xfffffffd],-3[0xfffffffd],1689521654[0x64b40df6]) failed.
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],0[0x0]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],1[0x1]) failed.
-  Gives 2[0x2].  Should be -3[0xfffffffd]
+  Gives 0[0x0].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],-3[0xfffffffd],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be -3[0xfffffffd]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-2[0xfffffffe]) failed.
@@ -4963,7 +4899,7 @@ Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-1164072841[0xba9da877]) f
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],1689521654[0x64b40df6]) failed.
@@ -4971,29 +4907,29 @@ Test conditional(-3[0xfffffffd],806858526[0x3017af1e],1689521654[0x64b40df6]) fa
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],0[0x0]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],1[0x1]) failed.
-  Gives 2[0x2].  Should be 806858526[0x3017af1e]
+  Gives 0[0x0].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],806858526[0x3017af1e],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be 806858526[0x3017af1e]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-2[0xfffffffe]) failed.
@@ -5003,7 +4939,7 @@ Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-1164072841[0xba9da877])
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],1689521654[0x64b40df6]) failed.
@@ -5011,29 +4947,29 @@ Test conditional(-3[0xfffffffd],-2147483647[0x80000001],1689521654[0x64b40df6]) 
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483647[0x80000001]
+  Gives 0[0x0].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],-2147483647[0x80000001],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be -2147483647[0x80000001]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-2[0xfffffffe]) failed.
@@ -5043,7 +4979,7 @@ Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-1164072841[0xba9da877]) 
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],1689521654[0x64b40df6]) failed.
@@ -5051,29 +4987,29 @@ Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],1689521654[0x64b40df6]) f
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
+  Gives 0[0x0].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],2147483646[0x7ffffffe],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be 2147483646[0x7ffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-2[0xfffffffe]) failed.
@@ -5083,7 +5019,7 @@ Test conditional(-3[0xfffffffd],-2[0xfffffffe],-1164072841[0xba9da877]) failed.
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],1689521654[0x64b40df6]) failed.
@@ -5091,29 +5027,29 @@ Test conditional(-3[0xfffffffd],-2[0xfffffffe],1689521654[0x64b40df6]) failed.
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2[0xfffffffe]
+  Gives 0[0x0].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-2[0xfffffffe],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be -2[0xfffffffe]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-2[0xfffffffe]) failed.
@@ -5123,7 +5059,7 @@ Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-1164072841[0xba9da877])
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],1689521654[0x64b40df6]) failed.
@@ -5131,29 +5067,29 @@ Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],1689521654[0x64b40df6]) 
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],0[0x0]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],1[0x1]) failed.
-  Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
+  Gives 0[0x0].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-1434630031[0xaa7d4871],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be -1434630031[0xaa7d4871]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-2[0xfffffffe]) failed.
@@ -5163,7 +5099,7 @@ Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-1164072841[0xba9da877])
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],1689521654[0x64b40df6]) failed.
@@ -5171,29 +5107,29 @@ Test conditional(-3[0xfffffffd],-2147483646[0x80000002],1689521654[0x64b40df6]) 
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],0[0x0]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],1[0x1]) failed.
-  Gives 2[0x2].  Should be -2147483646[0x80000002]
+  Gives 0[0x0].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],-2147483646[0x80000002],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be -2147483646[0x80000002]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],2147483647[0x7fffffff]) failed.
   Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-728696479[0xd490f961]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-2147483647[0x80000001]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],2147483646[0x7ffffffe]) failed.
   Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-2[0xfffffffe]) failed.
@@ -5203,7 +5139,7 @@ Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-1164072841[0xba9da877]) 
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-2147483646[0x80000002]) failed.
   Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-1[0xffffffff]) failed.
   Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],1689521654[0x64b40df6]) failed.
@@ -5211,20 +5147,84 @@ Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],1689521654[0x64b40df6]) f
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-2147483645[0x80000003]) failed.
   Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],0[0x0]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-642698139[0xd9b13465]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],-2147483644[0x80000004]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],2147483643[0x7ffffffb]) failed.
   Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],1[0x1]) failed.
-  Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
+  Gives 0[0x0].  Should be 2147483645[0x7ffffffd]
 Test conditional(-3[0xfffffffd],2147483645[0x7ffffffd],801741150[0x2fc9995e]) failed.
   Gives 2[0x2].  Should be 2147483645[0x7ffffffd]
-... 8000 total errors for function conditional
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-2147483648[0x80000000]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-3[0xfffffffd]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-728696479[0xd490f961]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-2147483647[0x80000001]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-1164072841[0xba9da877]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],2147483645[0x7ffffffd]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],1689521654[0x64b40df6]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-2147483645[0x80000003]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],2147483644[0x7ffffffc]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],0[0x0]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-642698139[0xd9b13465]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],-2147483644[0x80000004]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],2147483643[0x7ffffffb]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],1[0x1]) failed.
+  Gives 0[0x0].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-1[0xffffffff],801741150[0x2fc9995e]) failed.
+  Gives 2[0x2].  Should be -1[0xffffffff]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],-2147483648[0x80000000]) failed.
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],2147483647[0x7fffffff]) failed.
+  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],-3[0xfffffffd]) failed.
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],-728696479[0xd490f961]) failed.
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],-2147483647[0x80000001]) failed.
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],2147483646[0x7ffffffe]) failed.
+  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],-2[0xfffffffe]) failed.
+  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],-1164072841[0xba9da877]) failed.
+  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],-2147483646[0x80000002]) failed.
+  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],2147483645[0x7ffffffd]) failed.
+  Gives 0[0x0].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],-1[0xffffffff]) failed.
+  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+Test conditional(-3[0xfffffffd],-257249095[0xf0aab0b9],1689521654[0x64b40df6]) failed.
+  Gives 2[0x2].  Should be -257249095[0xf0aab0b9]
+... 7365 total errors for function conditional
 Test conditional score: 0.00/3.00
 Test reverseBytes(-2147483648[0x80000000]) failed.
   Gives 2[0x2].  Should be 128[0x80]
@@ -8274,4 +8274,4 @@ Test tc2sm(-1278986395[0xb3c43765]) failed.
   Gives 2[0x2].  Should be -868497253[0xcc3bc89b]
 Test tc2sm score: 0.00/4.00
 Overall correctness score: 18.00/54.00
-18018 errors encountered.
+17383 errors encountered.
