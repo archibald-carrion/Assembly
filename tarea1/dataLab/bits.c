@@ -224,7 +224,7 @@ int conditional(int x, int y, int z)
  */
 int reverseBytes(int x)
 {
-  return 2;
+  return ((x>>24) & (255)) | ((x>>8) & (255 << 8)) | ((x<<8) & (255 << 16)) | ((x<<24) & ( 255 << 24));
 }
 /*
  * bang - Compute !x without using !
