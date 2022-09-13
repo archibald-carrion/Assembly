@@ -281,7 +281,8 @@ int isNegative(int x)
  */
 int multFiveEights(int x)
 {
-  return 2;
+  int numero = (x<<2)+x;
+  return ((x+x+x+x+x)>>3);
 }
 /*
  * sum3 - x+y+z using only a single '+'
