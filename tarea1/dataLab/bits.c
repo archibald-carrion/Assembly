@@ -211,8 +211,8 @@ int bitMask(int highbit, int lowbit)
  */
 int conditional(int x, int y, int z)
 {
-  //si x es 1 -> return y
-  //sino returno z
+  // si x es 1 -> return y
+  // sino returno z
   return ((~x) & z);
 }
 /*
@@ -224,7 +224,7 @@ int conditional(int x, int y, int z)
  */
 int reverseBytes(int x)
 {
-  return ((x>>24) & (255)) | ((x>>8) & (255 << 8)) | ((x<<8) & (255 << 16)) | ((x<<24) & ( 255 << 24));
+  return ((x >> 24) & (255)) | ((x >> 8) & (255 << 8)) | ((x << 8) & (255 << 16)) | ((x << 24) & (255 << 24));
 }
 /*
  * bang - Compute !x without using !
@@ -281,8 +281,8 @@ int isNegative(int x)
  */
 int multFiveEights(int x)
 {
-  int numero = (x<<2)+x;
-  return ((x+x+x+x+x)>>3);
+  int mask = x & 7;
+  return (x >> 3) + ((x >> 3) << 2) + ((mask + (mask << 2) + (x >> 31 & 7)) >> 3);
 }
 /*
  * sum3 - x+y+z using only a single '+'
@@ -342,7 +342,7 @@ int isLess(int x, int y)
  */
 int abs(int x)
 {
-  return (x+(x>>31))^(x>>31);
+  return (x + (x >> 31)) ^ (x >> 31);
 }
 /*
  * isNonZero - Check whether x is nonzero using

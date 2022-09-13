@@ -5305,37 +5305,7 @@ Test bitCount(2081992546[0x7c18af62]) failed.
 Test bitCount score: 0.00/4.00
 Test isZero score: 1.00/1.00
 Test isNegative score: 3.00/3.00
-Test multFiveEights(-536870911[0xe0000001]) failed.
-  Gives 201326592[0xc000000].  Should be -335544319[0xec000001]
-Test multFiveEights(536870911[0x1fffffff]) failed.
-  Gives -201326593[0xf3ffffff].  Should be 335544319[0x13ffffff]
-Test multFiveEights(-2[0xfffffffe]) failed.
-  Gives -2[0xfffffffe].  Should be -1[0xffffffff]
-Test multFiveEights(-536870910[0xe0000002]) failed.
-  Gives 201326593[0xc000001].  Should be -335544318[0xec000002]
-Test multFiveEights(536870910[0x1ffffffe]) failed.
-  Gives -201326594[0xf3fffffe].  Should be 335544318[0x13fffffe]
-Test multFiveEights(-1[0xffffffff]) failed.
-  Gives -1[0xffffffff].  Should be 0[0x0]
-Test multFiveEights(-536870909[0xe0000003]) failed.
-  Gives 201326593[0xc000001].  Should be -335544318[0xec000002]
-Test multFiveEights(536870909[0x1ffffffd]) failed.
-  Gives -201326594[0xf3fffffe].  Should be 335544318[0x13fffffe]
-Test multFiveEights(-402150161[0xe807acef]) failed.
-  Gives -251343851[0xf104cc15].  Should be -251343850[0xf104cc16]
-Test multFiveEights(-536870908[0xe0000004]) failed.
-  Gives 201326594[0xc000002].  Should be -335544317[0xec000003]
-Test multFiveEights(536870908[0x1ffffffc]) failed.
-  Gives -201326595[0xf3fffffd].  Should be 335544317[0x13fffffd]
-Test multFiveEights(534507604[0x1fdbf054]) failed.
-  Gives -202803660[0xf3e97634].  Should be 334067252[0x13e97634]
-Test multFiveEights(-536870907[0xe0000005]) failed.
-  Gives 201326595[0xc000003].  Should be -335544316[0xec000004]
-Test multFiveEights(536870907[0x1ffffffb]) failed.
-  Gives -201326596[0xf3fffffc].  Should be 335544316[0x13fffffc]
-Test multFiveEights(-478827029[0xe375adeb]) failed.
-  Gives 237604018[0xe298cb2].  Should be -299266893[0xee298cb3]
-Test multFiveEights score: 0.00/3.00
+Test multFiveEights score: 3.00/3.00
 Test sum3(-2147483648[0x80000000],-2147483648[0x80000000],-2147483648[0x80000000]) failed.
   Gives 0[0x0].  Should be -2147483648[0x80000000]
 Test sum3(-2147483648[0x80000000],-2147483648[0x80000000],2147483647[0x7fffffff]) failed.
@@ -8223,5 +8193,5 @@ Test tc2sm(1[0x1]) failed.
 Test tc2sm(-1278986395[0xb3c43765]) failed.
   Gives 2[0x2].  Should be -868497253[0xcc3bc89b]
 Test tc2sm score: 0.00/4.00
-Overall correctness score: 21.00/54.00
-17358 errors encountered.
+Overall correctness score: 24.00/54.00
+17343 errors encountered.
