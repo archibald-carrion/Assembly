@@ -211,8 +211,6 @@ int bitMask(int highbit, int lowbit)
  */
 int conditional(int x, int y, int z)
 {
-  // si x es 1 -> return y
-  // sino returno z
   int boolValue = !!x;
   return (((~boolValue) + boolValue + boolValue) & z) | (((~boolValue) + 1) & y);
 }
@@ -236,7 +234,7 @@ int reverseBytes(int x)
  */
 int bang(int x)
 {
-  return 2;
+  return ( (x | (~x + 1))>> 31) + 1;
 }
 /*
  * bitCount - returns count of number of 1's in word
