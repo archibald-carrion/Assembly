@@ -213,7 +213,8 @@ int conditional(int x, int y, int z)
 {
   // si x es 1 -> return y
   // sino returno z
-  return ((~x) & z);
+  int boolValue = !!x;
+  return (((~boolValue) + boolValue + boolValue) & z) | (((~boolValue) + 1) & y);
 }
 /*
  * reverseBytes - reverse the bytes of x
