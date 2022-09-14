@@ -186,7 +186,7 @@ int evenBits(void)
  */
 int fitsBits(int x, int n)
 {
-  return (~(x) + 1);
+  return !(x ^ ((x << (32 + (~n + 1))) >> (32 + (~n + 1))));
 }
 /*
  * bitMask - Generate a mask consisting of all 1's
@@ -200,7 +200,7 @@ int fitsBits(int x, int n)
  */
 int bitMask(int highbit, int lowbit)
 {
-  return 2;
+  return (~((~0 << highbit) << 1)) & (~0 << lowbit);
 }
 /*
  * conditional - same as x ? y : z
