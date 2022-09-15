@@ -303,6 +303,9 @@ int sum3(int x, int y, int z)
      Fill in code below that computes values for word1 and word2
      without using any '+' operations
   ***************************************************************/
+  word1 = x^y^z;
+  word2 = ((x&y) | (x&z) | (y&z))<<1;
+  //how to sum y and z without + ??
   /**************************************************************
      Don't change anything below here
   ***************************************************************/
