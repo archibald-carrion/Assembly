@@ -245,7 +245,17 @@ int bang(int x)
  */
 int bitCount(int x)
 {
-  return 2;
+  //return 2;
+  int m1=0x11 | (0x11<<8);
+  int mask=m1 | (m1<<16);
+  int s = x&mask;
+  s+=x>>1&mask;
+  s+=x>>2&mask;
+  s+=x>>3&mask;
+  s=s+(s>>16);
+  mask=0xf | (0xf<<8);
+  s=(s&mask)+((s>>4)&mask);//this is the things what the teacher said in class
+  return (s+(s>>8))&0x3f;
 }
 /*
  * isZero - returns 1 if x == 0, and 0 otherwise
