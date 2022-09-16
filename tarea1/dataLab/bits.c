@@ -234,7 +234,7 @@ int reverseBytes(int x)
  */
 int bang(int x)
 {
-  return ( (x | (~x + 1))>> 31) + 1;
+  return ((x | (~x + 1)) >> 31) + 1;
 }
 /*
  * bitCount - returns count of number of 1's in word
@@ -246,12 +246,10 @@ int bang(int x)
 int bitCount(int x)
 {
   // 286 331 153 = 0b10001000100010001000100010001
-  int resultado = (x & 0b10001000100010001000100010001) + (x>>1&0b10001000100010001000100010001) 
-                + (x>>2&0b10001000100010001000100010001) + (x>>3&0b10001000100010001000100010001);
+  int resultado = (x & 0b10001000100010001000100010001) + (x >> 1 & 0b10001000100010001000100010001) + (x >> 2 & 0b10001000100010001000100010001) + (x >> 3 & 0b10001000100010001000100010001);
   resultado = resultado + (resultado >> 16);
   // 3855 = 0b111100001111
-  return (((resultado & 0b111100001111) + ((resultado>>4) & 0b111100001111)) 
-       + (((resultado & 0b111100001111) + ((resultado>>4) & 0b111100001111))>>8)) & 63;
+  return (((resultado & 0b111100001111) + ((resultado >> 4) & 0b111100001111)) + (((resultado & 0b111100001111) + ((resultado >> 4) & 0b111100001111)) >> 8)) & 63;
 }
 /*
  * isZero - returns 1 if x == 0, and 0 otherwise
@@ -309,9 +307,9 @@ int sum3(int x, int y, int z)
      Fill in code below that computes values for word1 and word2
      without using any '+' operations
   ***************************************************************/
-  word1 = x^y^z; // suma
-  word2 = ((x&y) | (x&z) | (y&z)) << 1; // acarreo
-  //how to sum y and z without + ??
+  word1 = x ^ y ^ z;                          // suma
+  word2 = ((x & y) | (x & z) | (y & z)) << 1; // acarreo
+  // how to sum y and z without + ??
   /**************************************************************
      Don't change anything below here
   ***************************************************************/
@@ -339,7 +337,11 @@ int addOK(int x, int y)
  */
 int isLess(int x, int y)
 {
-  return 2;
+  // return 2;
+  int res = x + (~y + 1);
+  int flag1 = x & (~y);
+  int flag2 = (~(x ^ y)) & res;
+  return (flag1 | flag2) >> 31 & 1;
 }
 /*
  * abs - absolute value of x (except returns TMin for TMin)
@@ -362,7 +364,7 @@ int abs(int x)
  */
 int isNonZero(int x)
 {
-  return 2;
+  return ((x | (x + 0x7FFFFFFF)) >> 31) & 1;
 }
 /*
  * tc2sm - Convert from two's complement to sign-magnitude
