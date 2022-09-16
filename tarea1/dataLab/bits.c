@@ -337,11 +337,7 @@ int addOK(int x, int y)
  */
 int isLess(int x, int y)
 {
-  // return 2;
-  int res = x + (~y + 1);
-  int flag1 = x & (~y);
-  int flag2 = (~(x ^ y)) & res;
-  return (flag1 | flag2) >> 31 & 1;
+  return ((x & (~y)) | ((~(x ^ y)) & (x + (~y + 1)))) >> 31 & 1;
 }
 /*
  * abs - absolute value of x (except returns TMin for TMin)
@@ -364,6 +360,7 @@ int abs(int x)
  */
 int isNonZero(int x)
 {
+  // 0x7FFFFFFF -> todos 1s salvo el bit de signo
   return ((x | (x + 0x7FFFFFFF)) >> 31) & 1;
 }
 /*
