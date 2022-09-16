@@ -374,5 +374,6 @@ int isNonZero(int x)
  */
 int tc2sm(int x)
 {
-  return 2;
+  int signo = (x >> 31);
+  return (((signo << 31) | (~x + 1)) & signo) | (~signo & x);
 }
