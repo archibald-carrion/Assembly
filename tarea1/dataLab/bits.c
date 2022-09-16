@@ -245,17 +245,13 @@ int bang(int x)
  */
 int bitCount(int x)
 {
-  //return 2;
-  int m1=0x11 | (0x11<<8);
-  int mask=m1 | (m1<<16);
-  int s = x&mask;
-  s+=x>>1&mask;
-  s+=x>>2&mask;
-  s+=x>>3&mask;
-  s=s+(s>>16);
-  mask=0xf | (0xf<<8);
-  s=(s&mask)+((s>>4)&mask);//this is the things what the teacher said in class
-  return (s+(s>>8))&0x3f;
+  // 286 331 153 = 0b10001000100010001000100010001
+  int resultado = (x & 0b10001000100010001000100010001) + (x>>1&0b10001000100010001000100010001) 
+                + (x>>2&0b10001000100010001000100010001) + (x>>3&0b10001000100010001000100010001);
+  resultado = resultado + (resultado >> 16);
+  // 3855 = 0b111100001111
+  return (((resultado & 0b111100001111) + ((resultado>>4) & 0b111100001111)) 
+       + (((resultado & 0b111100001111) + ((resultado>>4) & 0b111100001111))>>8)) & 63;
 }
 /*
  * isZero - returns 1 if x == 0, and 0 otherwise

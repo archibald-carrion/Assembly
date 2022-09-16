@@ -10,41 +10,7 @@ Test bitMask score: 3.00/3.00
 Test conditional score: 3.00/3.00
 Test reverseBytes score: 3.00/3.00
 Test bang score: 4.00/4.00
-Test bitCount(-2147483648[0x80000000]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test bitCount(2147483647[0x7fffffff]) failed.
-  Gives 2[0x2].  Should be 31[0x1f]
-Test bitCount(-3[0xfffffffd]) failed.
-  Gives 2[0x2].  Should be 31[0x1f]
-Test bitCount(-1704366767[0x9a696d51]) failed.
-  Gives 2[0x2].  Should be 16[0x10]
-Test bitCount(2147483646[0x7ffffffe]) failed.
-  Gives 2[0x2].  Should be 30[0x1e]
-Test bitCount(-2[0xfffffffe]) failed.
-  Gives 2[0x2].  Should be 31[0x1f]
-Test bitCount(-1605994189[0xa0467933]) failed.
-  Gives 2[0x2].  Should be 14[0xe]
-Test bitCount(2147483645[0x7ffffffd]) failed.
-  Gives 2[0x2].  Should be 30[0x1e]
-Test bitCount(-1[0xffffffff]) failed.
-  Gives 2[0x2].  Should be 32[0x20]
-Test bitCount(-19567585[0xfed56c1f]) failed.
-  Gives 2[0x2].  Should be 21[0x15]
-Test bitCount(-2147483645[0x80000003]) failed.
-  Gives 2[0x2].  Should be 3[0x3]
-Test bitCount(2147483644[0x7ffffffc]) failed.
-  Gives 2[0x2].  Should be 29[0x1d]
-Test bitCount(0[0x0]) failed.
-  Gives 2[0x2].  Should be 0[0x0]
-Test bitCount(1118732586[0x42ae812a]) failed.
-  Gives 2[0x2].  Should be 12[0xc]
-Test bitCount(2147483643[0x7ffffffb]) failed.
-  Gives 2[0x2].  Should be 30[0x1e]
-Test bitCount(1[0x1]) failed.
-  Gives 2[0x2].  Should be 1[0x1]
-Test bitCount(2081992546[0x7c18af62]) failed.
-  Gives 2[0x2].  Should be 16[0x10]
-Test bitCount score: 0.00/4.00
+Test bitCount score: 4.00/4.00
 Test isZero score: 1.00/1.00
 Test isNegative score: 3.00/3.00
 Test multFiveEights score: 3.00/3.00
@@ -934,5 +900,5 @@ Test tc2sm(1[0x1]) failed.
 Test tc2sm(-1278986395[0xb3c43765]) failed.
   Gives 2[0x2].  Should be -868497253[0xcc3bc89b]
 Test tc2sm score: 0.00/4.00
-Overall correctness score: 39.00/54.00
-457 errors encountered.
+Overall correctness score: 43.00/54.00
+440 errors encountered.
