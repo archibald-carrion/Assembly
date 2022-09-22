@@ -1,38 +1,31 @@
 /**
- *   CI0118 Lenguajes ensambladores
- *   Grupo: 02 (Francisco Arroyo)
- *   Ejemplo de llamado a rutinas en ensamblador desde C
- *
- *   Compilar: g++ -g bisTest.cc bisiesto.s -o bisTest.out
- *   Correr: ./bisTest.out
- *
+ *   to compile: g++ -g bisTest.cc bisiesto.s -o bisTest.out
+ *   to run: ./bisTest.out
  */
 #include <iostream>
-
-
-extern "C" int bisiesto( int );	// Declaración para indicar que esta rutina se define en "link time"
-				// El símbolo "bisiesto" debe coincidir con la rutina en ensamblador y debe ser global
-
+extern "C" int leapyear(int);
 /**
- *
+ * declaration that the routine is define in "link time"
+ * the function name "leapyear" must be the same as the assembly routine and must be global
  */
-int main ( int argumentos, char **valores ) {
-    int resultado;
-    int n = 2022;
-    const char * msg [] = { " no", "" };
+int main(int arguments, char **values)
+{
+   int result;
+   int n = 2022;
+   const char *msg[] = {" no", ""};
 
-    if ( argumentos > 1 ) {		// Check for argument
-       n = atoi( valores[ 1 ] );	// Convert argument to number
-    }
-    // bisiesto( n )
-    //std::cout <<  bisiesto( n ) << std::endl;
+   if (arguments > 1)
+   {                       // Check for argument
+      n = atoi(values[1]); // Convert argument to number
+   }
 
-    resultado = bisiesto( n );	// Call assembly routine
-    if ( resultado ) {
-       msg[ 0 ]  = 0;
-    }
+   result = leapyear(n); // Call assembly routine
+   if (result)
+   {
+      msg[0] = 0;
+   }
 
-    std::cout << "El año " << n << msg[ resultado ] << " es bisiesto." << std::endl;
+   std::cout << "The year " << n << msg[resultado] << " is a leap year" << std::endl;
 
-    return 0;
+   return 0;
 }

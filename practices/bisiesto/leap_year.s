@@ -1,44 +1,40 @@
-#
-#
-#
-
 .text
-.global bisiesto
+.global leapyear
 
-bisiesto:
+leapyear:
     # result in eax, remainder in edx
     mov     $100,    %ebx
     mov     %edi,  %eax
     mov     $0,    %edx
-    div     %ebx 
-    cmp     $0,     %edx
+    div     %ebx                    # first check
+    cmp     $0,     %edx        
     je      test400
 
     mov     $4,    %ebx
     mov     %edi,  %eax
     mov     $0,    %edx
-    div     %ebx 
+    div     %ebx                    # second check
     cmp     $0,     %edx
-    je      esBisiesto
-    jne     noBisiesto
+    je      isLeapyear
+    jne     notLeapyear
 
 test400:
     mov     $400,    %ebx
     mov     %edi,  %eax
     mov     $0,    %edx
-    div     %ebx 
+    div     %ebx                    # third check
     cmp     $0,     %edx
-    je      esBisiesto
+    je      isLeapyear
     ret
 
-esBisiesto:
+isLeapyear:
     mov     $1,     %eax
     ret
 
-noBisiesto:
+notLeapyear:
     mov     $0,     %eax
     ret
 
-# devuelve un 1 o un 0
+# must return either 0 or 1
 # input %rdi
-# input %rax
+# output %rax
