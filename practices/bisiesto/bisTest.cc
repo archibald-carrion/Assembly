@@ -1,5 +1,5 @@
 /**
- *   to compile: g++ -g bisTest.cc bisiesto.s -o bisTest.out
+ *   to compile: g++ -g bisTest.cc leap_year.s -o bisTest.out
  *   to run: ./bisTest.out
  */
 #include <iostream>
