@@ -25,7 +25,7 @@ int main(int arguments, char **values)
       msg[0] = 0;
    }
 
-   std::cout << "The year " << n << msg[resultado] << " is a leap year" << std::endl;
+   std::cout << "The year " << n << msg[result] << " is a leap year" << std::endl;
 
    return 0;
 }
