@@ -1,0 +1,6 @@
+.text
+.global greatestCommonDivisor
+
+greatestCommonDivisor:
+
+
