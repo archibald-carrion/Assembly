@@ -1,4 +1,4 @@
-// g++ -g bisTest.cc leap_year.s -o bisTest.out
+// gcc -g greatestCommonDivisor.cc greatestCommonDivisor.s -o gcd.out
 
 #include <stdio.h>
 extern "C" int greatestCommonDivisor(int, int);
