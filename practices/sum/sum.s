@@ -1,6 +1,4 @@
-#  C++ interface with assembly
-#
-#  First parameter  -> DI
+# First parameter  -> DI
 #  Second parameter -> SI
 #  Third parameter  -> DX
 #  Fourth parameter -> CX
@@ -8,28 +6,23 @@
 #  Sixth parameter  -> r9
 #  Next parameters on stack
 #
-#  Return value in AX
-#
-#  Use with test.cc
-#
-# Compile: gcc -g sumTest.cc sumar.s -o sumTest.out
-# Run: ./sumTest.out
+#  Output in AX
 #
 .text
-.global sumar
+.global sum
 
-sumar:				# parameter is in DI register
-	cmp	$1, %rdi		# Check for base case (1 == n)
-	jle	base			# Jump if less or equal
-	push	%rdi			# Push parameter
-	dec	%rdi			# n - 1
-	call	sumar		# Call with n - 1
-	pop	%rdi			# Recover parameter in DI
-	add	%rdi, %rax	# Add terms AX += DI
-	jmp	sumar_exit	# Exit function
+sum:
+	cmp	    $1,     %rdi		    # Check for base case (1 == n)
+	jle	    base			        # Jump if less or equal
+	push	%rdi			        # Push parameter
+	dec	    %rdi			        # n - 1
+	call	sum		                # Call with n - 1
+	pop	    %rdi			        # Recover parameter in DI
+	add	    %rdi,    %rax
+	jmp	    exit	                # exit
     
 base:
-	mov	$1, %rax		# Base case, set AX = 1
+	mov	    $1,     %rax		    # Base case --> rax = 1
 
-sumar_exit:
+exit:
 	ret

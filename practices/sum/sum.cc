@@ -1,7 +1,7 @@
 #include <iostream>
 
 /**
- * to compile -->  gcc -g sum.cc sum.s -o code.out
+ * to compile -->  g++ -g sum.cc sum.s -o code.out
  * to execute -->  ./code.out
  */
 
