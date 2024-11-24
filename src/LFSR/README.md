@@ -88,3 +88,36 @@ Note: shif operations fill the empty bit with 0, and the lost bit is discarded.
 
 #### Seed value
 
+
+#### Flowchart of the LFSR algorithm
+```mermaid	
+flowchart TD
+    Start([Start]) --> Init["Initialize:
+    ebx = 0x10101010 (Seed)
+    edx = 0b10110101 (Polynomial)"]
+    
+    Init --> MainLoop{"Main Loop
+    (ecx times)"}
+    
+    MainLoop -->|"Step 1"| GetLSB["Get LSB (Feedback bit)
+    eax = ebx & 0b1"]
+    
+    GetLSB --> ShiftRight["Shift Right
+    ebx = ebx >> 1"]
+    
+    ShiftRight --> CheckBit{"Is feedback
+    bit 1?"}
+    
+    CheckBit -->|"Yes"| XORop["XOR with Polynomial
+    ebx = ebx XOR edx"]
+    
+    CheckBit -->|"No"| Continue["Skip XOR"]
+    
+    XORop --> DecCount["Decrement Counter
+    ecx--"]
+    Continue --> DecCount
+    
+    DecCount --> MainLoop
+    
+    MainLoop -->|"Done"| Exit([Exit])
+```	
