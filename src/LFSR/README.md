@@ -55,3 +55,36 @@ continue
 
 ## Key concepts of the LFSR algorithm
 ### Basic terminology
+#### Bits position
+- **MSB (Most Significant Bit)**: The leftmost bit in the register, having the highest value (2^n-1)
+  ```
+  Example in 8-bit: [1]0101010
+                     ↑ MSB = 1
+  ```
+- **LSB (Least Significant Bit)**: The rightmost bit in the register, having value 2^0 = 1
+  ```
+  Example in 8-bit: 10101010[1]
+                            ↑ LSB = 1
+  ```
+Note: MSB and LSB are relative terms and depend on the endianness of the system, i.e., big-endian or little-endian.
+
+#### Register operations
+- **Shift Right**: Moving all bits one position to the right, LSB is lost
+  ```
+  Before: 1011 0101
+  After:  0101 1010
+  ```
+- **Shift Left**: Moving all bits one position to the left, MSB is lost
+  ```
+  Before: 1011 0101
+  After:  0110 1010
+  ```
+
+Note: shif operations fill the empty bit with 0, and the lost bit is discarded.
+
+### LFSR Algorithm
+
+#### feedback mechanism
+
+#### Seed value
+
