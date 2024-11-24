@@ -85,9 +85,24 @@ Note: shif operations fill the empty bit with 0, and the lost bit is discarded.
 ### LFSR Algorithm
 
 #### feedback mechanism
+- The polynomial is a mathematical representation of which bits participate in feedback
+- The feedback is only calculated if the condition is met (e.g., the LSB is 1)
+- In the feedback mechanism the specific bit positions that are used in feedback calculation are called **taps**.
+- In my current polynomial (0b10110101), taps are at positions 7, 5, 4, 2, and 0
+  ```
+  Register:   [1] 0 [1] [1] 0 [1] 0 [1]
+  Position:    7  6  5   4  3  2  1  0
+  Taps:        ↑     ↑   ↑     ↑     ↑
+  ```
 
 #### Seed value
-
+- Initial value loaded into the register
+- Must be non-zero to avoid the zero-lock state
+- My current implementation uses: 0x10101010
+  ```
+  Hex:        1    0    1    0    1    0    1    0
+  Binary: 0001 0000 0001 0000 0001 0000 0001 0000
+  ```
 
 #### Flowchart of the LFSR algorithm
 ```mermaid	
