@@ -7,6 +7,9 @@ This repository contains a collection of algorithms implemented in x86 assembly 
 ### Linear Feedback Shift Register (LFSR)
 A Linear Feedback Shift Register implementation in x86 assembly. LFSR is commonly used in cryptography, digital communications, and random number generation.
 
+### Integer Square Function
+A simple integer squaring function implemented in x86 assembly. This function squares an integer input and returns the result.
+
 ### TODO: Add already implemented algorithms here
 
 ## Project Structure
@@ -15,7 +18,7 @@ A Linear Feedback Shift Register implementation in x86 assembly. LFSR is commonl
 ├── README.md
 ├── src/
 │   ├── lfsr/
-│   ├── 
+│   ├── square/
 │   └── 
 ├── resources/
 └── docs/
