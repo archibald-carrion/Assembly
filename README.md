@@ -12,6 +12,18 @@ A simple integer squaring function implemented in x86 assembly. This function sq
 
 ### TODO: Add already implemented algorithms here
 
+## Educational Resources
+
+### 📚 Register Calling Conventions
+New! Comprehensive guide and examples on **callee-saved vs caller-saved registers** in x86-64:
+- **Documentation**: [`docs/registers/CALLEE_SAVED_VS_CALLER_SAVED.md`](docs/registers/CALLEE_SAVED_VS_CALLER_SAVED.md) - Complete explanation with ABI references
+- **Examples**: See [`src/registers/`](src/registers/) for practical demonstrations
+  - `caller_saved_demo.asm` - Caller-saved (volatile) register usage
+  - `callee_saved_demo.asm` - Callee-saved (non-volatile) register usage
+  - `register_convention.asm` - Complete ABI-compliant function example
+
+> **Reference**: Based on the official [x86-64 ABI Specification](https://gitlab.com/x86-psABIs/x86-64-ABI/-/jobs/artifacts/master/raw/x86-64-ABI/abi.pdf?job=build) from the x86-psABIs project.
+
 ## Project Structure
 ```
 .
@@ -19,10 +31,17 @@ A simple integer squaring function implemented in x86 assembly. This function sq
 ├── src/
 │   ├── lfsr/
 │   ├── square/
-│   └── 
+│   ├── registers/          # NEW: Register convention examples
+│   │   ├── README.md
+│   │   ├── caller_saved_demo.asm
+│   │   ├── callee_saved_demo.asm
+│   │   └── register_convention.asm
+│   └── ...
+├── docs/
+│   └── registers/          # NEW: Register convention documentation
+│       └── CALLEE_SAVED_VS_CALLER_SAVED.md
 ├── resources/
-└── docs/
-    └── images/
+└── rapsberrypi_mini_distro/
 ```
 
 ## Requirements, build, and execution
